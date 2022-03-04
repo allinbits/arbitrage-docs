@@ -186,9 +186,9 @@ gaiad version
 2. Replace necessary configuration 
 
     ```bash
-    sed -i '' 's#"tcp://127.0.0.1:26657"#"tcp://0.0.0.0:26657"#g' $HOME/.gaia/config/config.toml 
-    sed -i '' 's/enable = false/enable = true/g' $HOME/.gaia/config/config.toml 
-    sed -i '' 's/swagger = false/swagger = true/g' $HOME/.gaia/config/config.toml 
+    sed -i 's#"tcp://127.0.0.1:26657"#"tcp://0.0.0.0:'"26657"'"#g' $HOME/.gaia/config/config.toml
+    sed -i 's/enable = false/enable = true/g' $HOME/.gaia/config/app.toml 
+    sed -i 's/swagger = false/swagger = true/g' $HOME/.gaia/config/app.toml
     ```
 
 ### State sync
