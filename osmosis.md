@@ -331,7 +331,7 @@ OSMO: $1.99: [https://www.coingecko.com/en/coins/osmosis](https://www.coingecko.
 
 ![Global Price Osmosis](https://user-images.githubusercontent.com/20435620/129910462-506030f6-7ee8-4d2f-a334-7f97e253449d.png)
 
-This means 1 OSMO is equal to 0.132138114209827 OSMO
+This means 1 OSMO is equal to 0.132138114209827 ATOM
 
 **→ Global Price: 0.132138114209827**
 
